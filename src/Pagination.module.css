@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  background-color: rgb(5, 99, 149);
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #000;
+  color: #180d0d;
+}
